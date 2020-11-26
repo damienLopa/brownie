@@ -13,10 +13,14 @@ brownie -h
 
 # Use custom template
 
+```bash
 brownie --template="https://github.com/your_template"
+```
 
 # Example of template config
 
+
+```bash
 .brownie.json
 {
     "package_installer": [
@@ -32,3 +36,4 @@ brownie --template="https://github.com/your_template"
         "no"
     ]
 }
+```
